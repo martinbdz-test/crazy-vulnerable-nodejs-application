@@ -15,3 +15,5 @@ jobs:
           fetch-depth: 0
       - name: Qodana - License Audit
         uses: JetBrains/qodana-license-audit-action@v2.0-eap
+      - name: Qodana - Clone Finder
+        uses: JetBrains/qodana-clone-finder-action@v2.0-eap
